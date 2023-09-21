@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;   
+    outline: 0;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.conteiner{
+    box-shadow: -3px 10px 55px -4px #000;
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+.type-area{
+    display: grid;
+    width: 200px;
+    margin-left: 40px;
+    margin-top: 200px;
+    height: 70px;
+}
+.holder{
+    padding-left: 20px;
+}
+input{
+    background-color:  rgb(255, 255, 255);
+    border: none;
+   
+}
+#username{
+    border: 1px solid rgb(209, 203, 203);
+    width: 300px;
+    padding: 10px;
+    margin-top: 50px;
+}
+#password{
+    border: 1px solid rgb(195, 189, 189);
+    margin-top: 30px;
+    padding: 10px;
+ 
+}
+button{
+    margin-top: 30px;
+    width: 300px;
+    height: 35px;
+    color: white;
+    background-color: rgb(44, 84, 245);
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+}
+h4{
+  color:rgb(99, 127, 238);
+  text-align: center;
+  margin-top: 10px;
+  cursor: pointer;
+ }
+ .btn2{
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 200px;
+    height: 35px;
+    color: white;
+    background-color: rgb(9, 237, 89);
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+}
+@media screen and (max-width:480px){
+    .conteiner{
+        width: 300px;
+        height: 350px;
+        margin-top: 50px;
+    }
+    #username{
+        
+        width: 220px;
+    }
+    #password{
+        width: 220px;
+    }
+    button{
+        margin-top: 20px;
+        width: 220px;
+        height: 30px;
+    }
+    .btn2{
+        margin-left: 20px;
+    }
+}
